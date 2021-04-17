@@ -1,0 +1,10 @@
+2021-04-17 13:11:12,641 I am going to start my program
+2021-04-17 13:11:12,641 this is my first waring of my program so modifying it
+2021-04-17 13:11:12,641 this is a msg for error 
+2021-04-17 13:21:19,926 variable are 1 and 0
+2021-04-17 13:21:19,927 ZeroDivisionError has occured
+2021-04-17 13:21:19,927 division by zero
+Traceback (most recent call last):
+  File "<ipython-input-4-59226ca634c9>", line 4, in test
+    div = a/b
+ZeroDivisionError: division by zero

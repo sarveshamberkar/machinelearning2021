@@ -1,0 +1,15 @@
+2021-04-17 17:12:54,797 __main__ ERROR Tried to divide by zero
+Traceback (most recent call last):
+  File "D:/machine_learning2021/machinelearning2021/1_python/practice/notebook/LOGGER_SCRIPTS/sample_log.py", line 33, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2021-04-17 17:15:31,627 __main__ ERROR Tried to divide by zero
+Traceback (most recent call last):
+  File "D:/machine_learning2021/machinelearning2021/1_python/practice/notebook/LOGGER_SCRIPTS/sample_log.py", line 35, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2021-04-17 17:16:20,976 __main__ ERROR Tried to divide by zero
+Traceback (most recent call last):
+  File "D:/machine_learning2021/machinelearning2021/1_python/practice/notebook/LOGGER_SCRIPTS/sample_log.py", line 38, in divide
+    result = x / y
+ZeroDivisionError: division by zero
