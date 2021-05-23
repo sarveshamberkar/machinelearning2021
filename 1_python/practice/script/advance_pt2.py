@@ -10,7 +10,13 @@
 # the above method is inefficient way to write the code
 
 # actual way is to use __init__
+import os
+
+asda_dasd_Dsad_DADA__dasdA = 'A'
+
+
 class Car:
+
     def __init__(self, windows, engine):
         self.windows = windows
         self.engine = engine
@@ -29,9 +35,11 @@ except TypeError as ex:
 # access modifiers
 class Bike:
     def __init__(self, engine, weight):
-        self._engine = engine  # access modifier is protected this is done using '_' in front of variable name but it
+        # access modifier is protected this is done using '_' in front of variable name but it
+        self._engine = engine
         # can still be change
-        self.__weight = weight  # access modifier is private this is done using '__' in front of variable name but
+        # access modifier is private this is done using '__' in front of variable name but
+        self.__weight = weight
         # itcan still be change
 
         # protected variable concept is that it can only be access using the subclass
@@ -46,4 +54,4 @@ class ApacheRtr(Bike):
 
 
 a = ApacheRtr(2000, 100, 1.0, 200)
-print(a.engine, a.weight, a.speed, a.version)
+print(a._engine, a.speed, a.version)

@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "d:\\anaconda\\envs\\gpu\\python.exe",
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
+}
